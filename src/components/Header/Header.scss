@@ -1,12 +1,13 @@
 .header {
     width: 100%;
-    min-height: 104px;
+    min-height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 32px;
     padding-top: 24px;
     padding-bottom: 24px;
+    background-color: transparent;
 }
 
 .header__logo-link {
@@ -17,7 +18,7 @@
 
 .header__logo {
     display: block;
-    width: 132px;
+    width: 156px;
     height: auto;
 }
 

@@ -48,6 +48,7 @@
 
 body {
   margin: 0;
+  background-color: var(--color-beige-bg);
   -webkit-font-smoothing: antialiased;
 }
 
