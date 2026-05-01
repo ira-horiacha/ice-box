@@ -6,9 +6,9 @@ export default function NavBar() {
         <nav className="navbar">
             <ul>
                 {NAVLIST.map((item) => (
-                    <a href={item.link}><li key={item.name} className="p3">
-                        {item.name}
-                    </li></a>
+                    <li key={item.name} className="p3">
+                        <a href={item.link}>{item.name}</a>
+                    </li>
                 ))}
             </ul>
         </nav>
