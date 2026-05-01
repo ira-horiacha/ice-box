@@ -1,0 +1,62 @@
+.btn, .arrow{
+    background-color: var(--color-black-900);
+    border-radius: 50px;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.btn-large{
+    padding: 12px 40px;
+}
+
+.btn-small{
+    padding: 12px 24px;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    width: fit-content;
+}
+
+.arrow-small{
+    img{
+        width:24px;
+        height: 24px;
+    }
+}
+
+.arrow-large{
+    img{
+        width:32px;
+        height: 32px;
+    }
+}
+
+.btn-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.hover-with-arrow{
+    display: inline-flex;
+    gap: 0px;
+    transition: gap 0.3s ease;
+
+    &:hover{
+        gap: 4px;
+    }
+}
+
+.btn-with-arrow{
+
+}
+
+.btn-default{
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover{
+        background-color: var(--color-pink-700);
+    }
+}

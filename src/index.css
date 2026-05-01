@@ -1,3 +1,43 @@
+:root {
+  /* --- Base Neutrals --- */
+  --color-white: #fffefe;
+  --color-beige-bg: #faf7ed;
+  
+  /* --- Greyscale / UI Elements --- */
+  --color-grey-200: #eae7db; /* inputs, secondary bg */
+  --color-grey-300: #dcd8cd; /* hover state */
+  --color-grey-400: #bababa; /* disabled state */
+  --color-grey-500: #75746f; /* subtext */
+  --color-grey-600: #2e2e2e; /* secondary text, focused */
+  --color-grey-700: #1e1e1e; /* pressed state */
+  --color-black-900: #060606; /* primary buttons, headings */
+
+  /* --- Accents & Feedback --- */
+  --color-accent-red: #fd4b2a; /* stickers */
+  --color-error: #e65555;
+  --color-mirror-black: #000000;
+  
+  /* --- Pink Palette --- */
+  --color-pink-100: #ffe6f2; /* hovered pink */
+  --color-pink-200: #ffbfde;
+  --color-pink-500: #ff9acd; /* background bleach */
+  --color-pink-700: #ef71a3; /* background */
+  --color-pink-img: #ff75b1;
+
+  /* --- Transparencies & Specifics --- */
+  /* Secondary (Black 80%) */
+  --color-secondary-80: rgba(6, 6, 6, 0.8); 
+  
+  /* Images Effect (Pink 20%) */
+  --color-pink-effect-20: rgba(255, 117, 177, 0.2);
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: 'Regasti';
   src: url('./assets/fonts/regasti-regular.otf') format('otf');
@@ -132,4 +172,11 @@ h4 {
   line-height: 16px;
   letter-spacing: 0;
   margin: 0;
+}
+
+.container{
+  max-width: 1920px;
+  width: 100%;
+  padding: 0 80px;
+  margin: 0 auto;
 }
